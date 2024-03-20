@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* outline: 1px white solid;  */
+}
+
+body {
+    /* background-color: black; */
+    font-family: 'Ubuntu', sans-serif;
+    background: radial-gradient(circle, rgb(77, 76, 76) 15%, #000000);
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    background-size: cover;
+}
+
+#container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    transition: all 0.3s ease;
+    text-align: center;
+    height: 100px;
+    /* line-height: 100px; */
+    padding-top: 100px;
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+
+
+.spantitulo {
+    display: block;
+    color: grey;
+}
+
+.proceso {
+    transition: all 0.1s ease;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+header:hover {
+    .nombre{
+        color: grey;
+    }
+    .spantitulo {
+        color: white;
+    }
+    .proceso {
+        color: grey;
+        scale: 300%;
+        margin-top: 20px;
+    }
+}
+
+/*------NAVEGACIÓN------*/
+
+
+nav ul li {
+    list-style: none;
+    float: left;
+    margin:10px;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+}
+
+a.botonesnav {
+    transition: all 0.1s ease;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-decoration-line: overline
+}
+
+a.botonesnav:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.idioma {
+    float: right;
+    margin-top: 15px;
+}
+
+.iconobandera {
+    margin: 10px;
+}
+
+.icono {
+    transition: all 0.1s ease;
+}
+
+.icono:hover {
+    scale: 130%;
+    filter: drop-shadow(0 0 3px white);
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/*------SOBRE MÍ-----*/
+
+
+main {
+    margin-top: 100px;
+}
+
+#sobremi {
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 60px;
+    
+}
+
+
+
+#fotojpg {
+    transition: all 0.2s ease;
+    float: right;
+    border-radius: 80px;
+    box-shadow: 0px 0px 10px grey;
+    margin: 30px 50px 30px 0;
+}
+
+#fotojpg:hover {
+    box-shadow: 0px 0px 20px white;
+    scale: 102%;
+}
+
+.negrita {
+    transition: all 0.2s ease;
+}
+
+.textoabout:hover {
+    .negrita {
+        background: grey;
+        padding: 0.1em;
+        scale: 120%;
+    }
+
+    strong{
+        color: white;
+        font-style: italic;
+    }
+}
+
+/*------PROYECTOS------*/
+
+#proyectos {
+    height: 1000px;
+    margin-top: 200px;
+}
+
+.subproyectos {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+
+#pronto {
+    text-align: center;
+    font-size: 60px;
+    color: grey;
+    margin-top: 100px;
+    
+}
